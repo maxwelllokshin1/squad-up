@@ -1,13 +1,13 @@
-// server.js
-require("dotenv").config();
+require("dotenv").config(); // require env file
 console.log("URI loaded:", !!process.env.MONGO_URI); // should print true
 const express = require("express");
-const connectDB = require("./db");
+const connectDB = require("./db"); 
 
 const app = express();
-app.use(express.json());
-connectDB();
+app.use(express.json()); // start server
+connectDB(); // connect to the db
 
-app.use("/api/auth", require("./routes/auth"));
+app.use("/api/auth", require("./routes/auth")); // authentication
 
-app.listen(5000, () => console.log("Server on :5000"));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server on :${PORT}`)); // listening on port 5000
