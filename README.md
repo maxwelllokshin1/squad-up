@@ -1,16 +1,44 @@
-test
+Verified for ucf only network for fining and hosting pickup games happening on campus RIGHT NOW.
 
+Core features (web + app)
+ucf verification and onboarding
+signpu requires ucf email
+onetime email code to verify
+onboarding such as name, nickname, pfp, sports selection
 
-Campus-quest 
-ideas/direction
-- Users given a google street view photo or hint of a campus location (google earth api)
-- user must visit real location to complete quest
-- app can verify if user is at location using location data (gps location) or using a photo upload and checking its metadata
-- app could potentially have a hot or cold system or a compass
-- promotes campus exploration and physical activity
-- could have different quest styles like 
-    - "time quests" (visit in x amount of time) 
-    - "riddle quests" (Users must solve where to go) 
-    - "sequence quests" (go to point A then B then C)
-- quests could give points/xp and users could have a progression system to keep it engaging
-- Lots of other potential ideas or avenues to explore
+profile
+profile stuff
+sports role flag (soccer, basketball, volleyball)
+reputation
+skill
+
+browsing discovery
+feed of most recent active postings for all sports
+filter
+map view of live games nearby
+
+Joining games
+tap to join (headcounts)
+once enough players - lock listing (leave open feed)
+roster
+
+After the game
+rate/report teammates
+host can make recurring schedule
+
+Notifs
+game filling up / confirmed / locked
+someone joined posting
+followed game starting soon
+
+APP SPECIFIC
+push notifs
+one tap gps location for posting / finding games
+native camera for photo
+im here feature
+
+WEB SPECIFIC
+uses all core features except for phone
+side by side map and feed layout
+easy profile editing and schedule management
+manual location picker / file photo upload
